@@ -1,0 +1,13 @@
+theme="monokai_pro_spectrum"
+[editor.cursor-shape]
+insert="bar"
+select="underline"
+
+[keys.insert]
+"j"={"k"="normal_mode"}
+[keys.normal]
+C-s=":w"
+C-S-s=":wa"
+C-o=":config-open"
+C-r=":config-reload"
+g={a="code_action"}
